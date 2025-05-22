@@ -1,0 +1,330 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZBA Mehndi – 100% Natural Henna Cones & Powder | ज़बा मेंहदी</title>
+  <meta name="description" content="ZBA Mehndi offers 100% natural henna cones and powder with deep maroon stains. Trusted for 25 years across India. Order on WhatsApp.">
+  <meta name="keywords" content="ZBA Mehndi, Natural Henna, Organic Mehndi, Henna Powder, Mehndi Cones, Herbal Mehndi, Sojat Henna, Hair Dye, Skin Safe Mehndi">
+  <meta name="author" content="ZBA Mehndi">
+  <meta property="og:title" content="ZBA Mehndi – Natural Henna Cones & Powder">
+  <meta property="og:description" content="Pure, organic henna products trusted for 25 years. Available across India.">
+  <meta property="og:image" content="images/hero.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zbamehndi.in">
+  <link rel="canonical" href="https://zbamehndi.in">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <style>
+    :root {
+      --primary: #4a2e19;
+      --accent: #a05a2c;
+      --bg: #faf6f2;
+      --light: #f3e8de;
+      --text: #4a2e19;
+    }
+    body.dark {
+      --primary: #f3e8de;
+      --accent: #d1a17f;
+      --bg: #2b1a11;
+      --light: #3a2518;
+      --text: #f3e8de;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      transition: background .3s, color .3s;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    nav {
+      background: rgba(244,237,231,.8);
+      backdrop-filter: blur(10px);
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding: .8rem 1.2rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    body.dark nav {
+      background: rgba(58,37,24,.8);
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    #toggle {
+      margin-left: auto;
+      cursor: pointer;
+      border: none;
+      background: var(--accent);
+      color: #fff;
+      padding: .4rem .9rem;
+      border-radius: .5rem;
+      font-weight: 600;
+    }
+    header {
+      display: grid;
+      place-items: center;
+      height: 45vh;
+      background: url("images/hero.jpg") center/cover no-repeat;
+      position: relative;
+      text-align: center;
+      color: #fff;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, .45);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      z-index: 1;
+    }
+    section {
+      padding: 3rem 6%;
+    }
+    h2.section-title {
+      text-align: center;
+      margin-bottom: 1.8rem;
+      font-size: 1.8rem;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--light);
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+      overflow: hidden;
+      transition: transform .3s ease;
+    }
+    body.dark .card {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
+    }
+    .card:hover {
+      transform: translateY(-6px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1.2rem;
+    }
+    .price {
+      color: var(--accent);
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: .4rem 0;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: .55rem 1.2rem;
+      border-radius: .5rem;
+      text-decoration: none;
+      font-size: .9rem;
+    }
+    .btn:hover {
+      opacity: .9;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+    .info-box {
+      text-align: center;
+    }
+    .testimonials {
+      max-width: 800px;
+      margin: auto;
+    }
+    blockquote {
+      background: var(--light);
+      padding: 1.2rem 1.6rem;
+      border-left: 4px solid var(--accent);
+      margin-bottom: 1.2rem;
+      border-radius: 0 .8rem .8rem 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .8rem;
+      text-align: center;
+      padding: 1.8rem 1rem;
+      background: var(--primary);
+      color: #fff;
+    }
+    body.dark footer {
+      background: var(--accent);
+    }
+    .socials {
+      display: flex;
+      gap: 1rem;
+    }
+    .socials a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+    input, textarea {
+      width: 100%;
+      padding: .7rem;
+      border: 1px solid #ddd;
+      border-radius: .5rem;
+      background: var(--light);
+      margin-bottom: .9rem;
+      font-size: .9rem;
+    }
+    @media(max-width:768px) {
+      header h1 { font-size: 2rem; }
+      #toggle { margin: 0 auto 0 0; }
+      nav { gap: 1rem; }
+      .product-grid { grid-template-columns: 1fr; }
+      section { padding: 2.5rem 5%; }
+    }
+    @media(max-width:480px) {
+      nav a { font-size: .9rem; }
+      #toggle { padding: .35rem .8rem; font-size: .85rem; }
+      header { height: 40vh; }
+    }
+  </style>
+</head>
+<body class="dark">
+  <nav>
+    <a href="#about">About</a>
+    <a href="#shop">Shop</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+    <button id="toggle">Light mode</button>
+  </nav>
+
+  <header>
+    <h1>ZBA Mehndi – 100% Natural Henna</h1>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">Overview of ZBA Mehndi</h2>
+    <p style="max-width:800px;margin:0 auto 1.5rem;text-align:justify;">
+      मेहंदी दुनियाँ की सबसे इच्छी दवा मे से एक है। जिसका लेख पूरी दुनियाँ के पोती पुराण और वैद्य मे है। जिसके कारण पूरी दुनियाँ के हर घर मे इसे शुभ शगुण पवित्र और सुन्नत, माना जाता है। जिसकी पूजा तुलसी से ज्यादा होती है। पूरी दुनियाँ में मेहंदी एक ऐसी अनोखी चीज़ है जो दुनियाँ के हर धर्म और त्योहारों में बार-बार पाई जाती है।
+    </p>
+    <p style="max-width:800px;margin:0 auto 1.5rem;text-align:justify;">
+      ज़बा नैचरल मेंहदी पाउडर शुद्ध मेंहदी के पत्तों को पीसकर बनाया गया है। शुद्ध नैचरल मेंहदी हजारों गुणों से भरपूर एक शक्तिशाली वैदिक हर्बल है, जिसका उल्लेख वेदों और पुराणों में किया गया है। इसी कारण यह सभी धर्मों में शुभ और पवित्र मानी जाती है।
+    </p>
+    <p style="text-align:center;font-weight:bold;font-size:1.1rem;">ZBA MEHNDI – 25 YEARS OF CUSTOMERS' TRUST</p>
+  </section>
+
+  <section id="shop">
+    <h2 class="section-title">Our Natural Henna Products</h2>
+    <div class="product-grid">
+      <div class="card">
+        <img src="images/cones.jpg" alt="Premium Henna Cones – ZBA Mehndi">
+        <div class="card-content">
+          <h3>Premium Henna Cones (Pack of 6)</h3>
+          <p>Freshly rolled, ready‑to‑use cones for deep maroon stains.</p>
+          <p class="price">₹299</p>
+          <a class="btn" href="https://wa.me/918468846467?text=I%20want%20to%20order%20henna%20cones">Buy on WhatsApp</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/powder.jpg" alt="Natural Henna Powder – ZBA Mehndi">
+        <div class="card-content">
+          <h3>Organic Henna Powder (200 g)</h3>
+          <p>Triple‑sifted Rajasthani henna for silky paste & rich color.</p>
+          <p class="price">₹199</p>
+          <a class="btn" href="https://wa.me/918468846467?text=I%20want%20to%20order%20henna%20powder">Buy on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits">
+    <h2 class="section-title">Why Choose ZBA Mehndi?</h2>
+    <div class="info-grid">
+      <div class="info-box"><h3>100% Natural</h3><p>No chemicals, parabens, or dyes—just pure Lawsonia leaves.</p></div>
+      <div class="info-box"><h3>Farm‑to‑Cone Freshness</h3><p>Leaves harvested in Sojat, shade‑dried & ground within 24 h.</p></div>
+      <div class="info-box"><h3>Deep & Long‑Lasting</h3><p>Achieve rich maroon stains that last up to 10‑12 days.</p></div>
+      <div class="info-box"><h3>Skin‑Safe</h3><p>Dermatologically tested—safe for sensitive skin.</p></div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2 class="section-title">Customer Testimonials</h2>
+    <div class="testimonials">
+      <blockquote>“Best henna cones I’ve tried! The stain turned dark within 24 hours and lasted almost two weeks.” — <strong>Neha S.</strong></blockquote>
+      <blockquote>“I use the powder for natural hair coloring—gives a beautiful copper shine without dryness.” — <strong>Priya D.</strong></blockquote>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p style="text-align:center;max-width:600px;margin:0 auto 2rem;">For orders or bulk inquiries, message us on WhatsApp or send an email—We’ll respond within 24 hours.</p>
+    <p style="text-align:center;margin-bottom:2rem;"><a class="btn" href="https://wa.me/918468846467">Chat on WhatsApp</a></p>
+    <form action="https://formspree.io/f/your-form-id" method="POST" style="max-width:600px;margin:0 auto;">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" rows="5" placeholder="Message" required></textarea>
+      <button type="submit" class="btn" style="border:none;">Send</button>
+    </form>
+  </section>
+
+  <section id="buy">
+    <h2 class="section-title">Call for Orders</h2>
+    <p style="text-align:center;max-width:600px;margin:0 auto 1.5rem;">Call or WhatsApp us on any of the numbers below—available 9 AM – 9 PM (IST).</p>
+    <div style="display:flex;justify-content:center;gap:1.2rem;flex-wrap:wrap;">
+      <a class="btn" href="tel:+919421803806">94218 03806</a>
+      <a class="btn" href="tel:+917020294899">70202 94899</a>
+      <a class="btn" href="tel:+919822736735">98227 36735</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ZBA Mehndi • Nagpur, India</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/zbamehndi/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://t.me/zbamehndi" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('toggle');
+    btn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      btn.textContent = document.body.classList.contains('dark') ? 'Light mode' : 'Dark mode';
+    });
+  </script>
+</body>
+</html>
